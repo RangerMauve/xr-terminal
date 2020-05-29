@@ -1,0 +1,7 @@
+{
+	"name": "xr-terminal",
+	"description": "A terminal you can load up in your XR scenes",
+	"xr_type": "webxr-site@0.0.1",
+	"start_url": "index.html"
+}
+

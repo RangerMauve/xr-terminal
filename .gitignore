@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Don't commit the bundle!
+xr-terminal.wbn
