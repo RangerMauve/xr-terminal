@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<title>XR Terminal</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<style>
+	@import url("./xterm.css");
+	body, html, main {
+		padding: 0;
+		margin: 0;
+		height: 256px;
+		width: 512px;
+	}
+
+	#preview {
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 256px;
+		height: 128px;
+		border: 1px solid black;
+	}
+</style>
+<script src="./xterm.js"></script>
+<script src="./xterm-addon-fit.js"></script>
+<script src="./local-echo.js"></script>
+<main>
+</main>
+<section id="preview">
+</section>
+<script type="module" src="./script.js"></script>
